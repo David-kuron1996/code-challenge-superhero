@@ -109,3 +109,31 @@ GET /powers
 ```
 GET /powers/1
 ```
+
+**PATCH a power**
+
+```
+PATCH /powers/1
+Body: { "description": "Updated description with at least 20 characters" }
+```
+
+**POST a hero-power**
+
+```
+POST /hero_powers
+Body:
+{
+  "hero_id": 3,
+  "power_id": 1,
+  "strength": "Average"
+}
+```
+
+**Notes:**
+
+* `strength` must be `"Strong"`, `"Weak"`, or `"Average"`
+* `description` must be at least 20 characters
+
+You can view results of POST requests by using **GET endpoints** like `/heroes/<id>`.
+
+
