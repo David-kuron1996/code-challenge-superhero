@@ -79,3 +79,33 @@ flask run
 ```
 
 Your API should now be running at `http://127.0.0.1:5000`.
+
+## **Usage**
+
+You can test the API using **Postman**, **cURL**, or any HTTP client.
+
+### **Sample Requests**
+
+**GET all heroes**
+
+```
+GET /heroes
+```
+
+**GET hero by ID**
+
+```
+GET /heroes/1
+```
+
+**GET all powers**
+
+```
+GET /powers
+```
+
+**GET power by ID**
+
+```
+GET /powers/1
+```
