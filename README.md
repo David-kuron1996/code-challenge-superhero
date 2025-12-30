@@ -28,3 +28,32 @@ The Superheroes API is a Flask-based RESTful API designed to track superheroes a
 3. [API Endpoints](#api-endpoints)
 4. [Credits](#credits)
 5. [License](#license)
+
+## **Installation**
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+
+```bash
+git clone <your-repo-url>
+cd code-challenge-superheros
+```
+
+2. **Create a virtual environment with pipenv**
+
+```bash
+pipenv install
+pipenv shell
+```
+
+3. **Install required dependencies (if not using pipenv)**
+
+```bash
+pip install Flask Flask-SQLAlchemy Flask-Migrate
+```
+
+4. **Set the Flask app environment variable**
+
+```bash
+export FLASK_APP=app.py
