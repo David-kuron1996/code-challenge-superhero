@@ -129,24 +129,10 @@ Body:
 }
 ```
 
-**Notes:**
-
-* `strength` must be `"Strong"`, `"Weak"`, or `"Average"`
-* `description` must be at least 20 characters
-
-You can view results of POST requests by using **GET endpoints** like `/heroes/<id>`.
-
 ## **Credits**
 
 * Developed by **[David Kuron]** ([GitHub](https://github.com/David-kuron1996))
-* Inspired by Moringa School's API challenges
-* References:
 
-  * [Flask Documentation](https://flask.palletsprojects.com/)
-  * [SQLAlchemy Documentation](https://docs.sqlalchemy.org/)
-  * [Postman Documentation](https://learning.postman.com/)
-
----
 
 ## **License**
 
