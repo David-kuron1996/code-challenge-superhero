@@ -57,3 +57,25 @@ pip install Flask Flask-SQLAlchemy Flask-Migrate
 
 ```bash
 export FLASK_APP=app.py
+
+5. **Initialize the database**
+
+```bash
+flask db init
+flask db migrate -m "Initial migration"
+flask db upgrade
+```
+
+6. **Seed the database** (if you have a seed file)
+
+```bash
+python seed.py
+```
+
+7. **Run the Flask server**
+
+```bash
+flask run
+```
+
+Your API should now be running at `http://127.0.0.1:5000`.
